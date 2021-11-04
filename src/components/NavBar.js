@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLink
             to="/post"
             activeClassName="text-white bg-indigo-300 bg-opacity-30"
-            className="inflex-flex items-center py-3 px-3 my-6 rounded hover:text-pink-400 text-white text-xl"
+            className="inflex-flex items-center py-3 px-3 my-6 rounded git hover:text-pink-400 text-white text-xl"
           >
             Blog Posts
           </NavLink>
@@ -37,7 +37,7 @@ const Navbar = () => {
             About Me
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="inline-flex py-3 px-3 my-6 flex">
           <SocialIcon
             url="https://linkedin.com/in/ahmedkhatib99/"
             className="mr-4"

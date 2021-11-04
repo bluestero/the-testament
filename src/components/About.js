@@ -30,7 +30,7 @@ const About = () => {
   }
   return (
     <main className="relative">
-      <img src={coffeeTable} alt="Coffee Table" className="absolute w-full flex" />
+      <img src={coffeeTable} alt="Coffee Table" className="absolute w-full h-full object-covers" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
